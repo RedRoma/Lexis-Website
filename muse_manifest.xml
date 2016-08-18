@@ -1,4 +1,4 @@
-<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="lexis.redroma.tech" resolutions="1x" timestamp="1471504542728">
+<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="lexis.redroma.tech" resolutions="1x" timestamp="1471504635433">
   <folder name="css">
     <file name="site_global.css" crc="3916556066"/>
     <file name="index.css" crc="316475231" ref="index"/>
@@ -25,5 +25,5 @@
     <file name="u286-43.png" crc="250192380" ref="index"/>
     <file name="blank.gif" crc="4208392903" ref="index"/>
   </folder>
-  <file name="index.html" crc="214008271" seo="true" mt="1471504521965" redirect="true"/>
+  <file name="index.html" crc="4134650217" seo="true" mt="1471504630083" redirect="true"/>
 </manifest>
