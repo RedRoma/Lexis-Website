@@ -1,7 +1,7 @@
-<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="lexis.redroma.tech" resolutions="1x" timestamp="1471504715844">
+<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="lexis.redroma.tech" resolutions="1x" timestamp="1471709372991">
   <folder name="css">
     <file name="site_global.css" crc="3916556066"/>
-    <file name="index.css" crc="316475231" ref="index"/>
+    <file name="index.css" crc="399970161" ref="index"/>
     <file name="nomq_index.css" crc="470088535" ref="index"/>
   </folder>
   <folder name="scripts">
@@ -17,13 +17,13 @@
     <file name="favicon.ico" crc="3967665933" ref="index"/>
     <file name="artboard-6.svg" crc="353376474" seo="true" ref="index"/>
     <file name="artboard 6_poster_.png" crc="4023217927" ref="index"/>
-    <file name="u156-4.png" crc="451885605" ref="index"/>
-    <file name="u286-4.png" crc="4177681876" ref="index"/>
-    <file name="u156-42.png" crc="3929914150" ref="index"/>
-    <file name="u286-42.png" crc="63894078" ref="index"/>
-    <file name="u156-43.png" crc="405937096" ref="index"/>
-    <file name="u286-43.png" crc="250192380" ref="index"/>
+    <file name="u156-4.png" crc="4204192438" ref="index"/>
+    <file name="u286-4.png" crc="491339750" ref="index"/>
+    <file name="u156-42.png" crc="1979238" ref="index"/>
+    <file name="u286-42.png" crc="3999828502" ref="index"/>
+    <file name="u156-43.png" crc="371855277" ref="index"/>
+    <file name="u286-43.png" crc="59196952" ref="index"/>
     <file name="blank.gif" crc="4208392903" ref="index"/>
   </folder>
-  <file name="index.html" crc="3944948791" seo="true" mt="1471504695517" redirect="true"/>
+  <file name="index.html" crc="3977820903" seo="true" mt="1471709340073" redirect="true"/>
 </manifest>
