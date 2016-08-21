@@ -7,7 +7,19 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://lexis.redroma.tech/images/artboard-6.svg</loc>
+    <loc>http://lexis.redroma.tech/images/icon-original.svg</loc>
+    <lastmod>2016-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://lexis.redroma.tech/assets/redroma-insignia-3.pdf</loc>
+    <lastmod>2016-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://lexis.redroma.tech/images/redroma-insignia-3.svg</loc>
     <lastmod>2016-08-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

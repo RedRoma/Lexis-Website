@@ -18,44 +18,149 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>Lexis</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=3916556066"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=399970161" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=4291906727" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
-  <link rel="stylesheet" type="text/css" href="css/nomq_index.css?crc=470088535" id="nomq_pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_index.css?crc=369143247" id="nomq_pagesheet"/>
   <![endif]-->
-   </head>
+    <!--HTML Widget code-->
+  
+		<style>
+#starfield { width: 100%; height: 100%; background: #1B2021; position: absolute; }
+.white-dwarf { width: 0.12em; height: 0.12em; box-shadow: 0px 0px 10px 2px #fff; background: #fff; opacity: 0.8 !important; border-radius: 200%; position: absolute; display: inline-block; }
+.yellow-dwarf { width: 0.15em; height: 0.15em; box-shadow: 0px 0px 10px 1px #fff; background: #fff; opacity: 0.8 !important; border-radius: 200%; position: absolute; display: inline-block; }
+.blue-dwarf { width: 0.1em; height: 0.1em; box-shadow: 0px 0px 15px 2px #fff; background: #79d2f7; border-radius: 200%; position: absolute; display: inline-block; }
+.red-giant { width: 0.05em; height: 0.05em; box-shadow: 0px 0px 10px 1px #fff; background: #fff; border-radius: 200%; position: absolute; display: inline-block; }
+ @-webkit-keyframes twinkle {
+ 0% {
+ opacity: 0.5;
+}
+ 25% {
+ opacity: 0.8;
+}
+ 50% {
+ opacity: 0.2;
+ -webkit-transform: scale(1.5);
+ transform: scale(1.5);
+}
+ 75% {
+ opacity: 0.8;
+}
+ 100% {
+ opacity: 0.5;
+}
+}
+@keyframes twinkle {
+ 0% {
+ opacity: 0.5;
+}
+ 25% {
+ opacity: 0.8;
+}
+ 50% {
+ opacity: 0.2;
+ -webkit-transform: scale(1.5);
+ transform: scale(1.5);
+}
+ 75% {
+ opacity: 0.8;
+}
+ 100% {
+ opacity: 0.5;
+}
+}</style>
+	
+  <!--/*
+
+*/
+-->
+ </head>
  <body>
 
   <div class="breakpoint active" id="bp_infinity" data-min-width="477"><!-- responsive breakpoint node -->
-   <div class="clearfix borderbox" id="page"><!-- group -->
-    <a class="nonblock nontext clip_frame grpelem" id="u123" href="https:github.com/redroma/Lexis/"><!-- svg --><img class="svg temp_no_img_src" id="u119" data-orig-src="images/artboard-6.svg?crc=353376474" width="960" height="568" alt="" data-mu-svgfallback="images/artboard%206_poster_.png?crc=4023217927" src="images/blank.gif?crc=4208392903"/></a>
-    <img class="grpelem temp_no_img_src" id="u156-4" alt="PROJECT LEXIS" width="960" height="59" data-orig-src="images/u156-4.png?crc=4204192438" src="images/blank.gif?crc=4208392903"/><!-- rasterized frame -->
-    <img class="grpelem temp_no_img_src" id="u286-4" alt="MOX ADVENTUS" width="960" height="26" data-orig-src="images/u286-4.png?crc=491339750" src="images/blank.gif?crc=4208392903"/><!-- rasterized frame -->
-    <div class="verticalspacer" data-offset-top="630" data-content-above-spacer="630" data-content-below-spacer="58"></div>
-   </div>
-  </div>
-  <div class="breakpoint" id="bp_476" data-min-width="321" data-max-width="476"><!-- responsive breakpoint node -->
-   <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- column -->
-    <div class="position_content" id="page_position_content">
-     <div class="clearfix colelem" id="pu123"><!-- group -->
-      <a class="nonblock nontext clip_frame grpelem temp_no_id" href="https:github.com/redroma/Lexis/" data-orig-id="u123"><!-- svg --><img class="svg temp_no_id temp_no_img_src" data-orig-src="images/artboard-6.svg?crc=353376474" width="706" height="418" alt="" data-mu-svgfallback="images/artboard%206_poster_.png?crc=4023217927" data-orig-id="u119" src="images/blank.gif?crc=4208392903"/></a>
-      <img class="grpelem temp_no_id temp_no_img_src" alt="PROJECT LEXIS" width="476" height="44" data-orig-src="images/u156-42.png?crc=1979238" data-orig-id="u156-4" src="images/blank.gif?crc=4208392903"/><!-- rasterized frame -->
+   <div class="clearfix borderbox" id="page"><!-- column -->
+    <div class="browser_width colelem shared_content" id="u156-4-bw" data-content-guid="u156-4-bw_content">
+     <div class="clearfix shared_content" id="u156-4" data-content-guid="u156-4_content"><!-- content -->
+      <p id="u156-2">Lexis</p>
      </div>
-     <img class="colelem temp_no_id temp_no_img_src" alt="MOX ADVENTUS" width="476" height="42" data-orig-src="images/u286-42.png?crc=3999828502" data-orig-id="u286-4" src="images/blank.gif?crc=4208392903"/><!-- rasterized frame -->
-     <div class="verticalspacer" data-offset-top="522" data-content-above-spacer="522" data-content-below-spacer="0"></div>
     </div>
+    <div class="browser_width colelem shared_content" id="u286-4-bw" data-content-guid="u286-4-bw_content">
+     <div class="clearfix shared_content" id="u286-4" data-content-guid="u286-4_content"><!-- content -->
+      <p id="u286-2">The Lexicon of Rome</p>
+     </div>
+    </div>
+    <div class="browser_width colelem shared_content" id="u759-bw" data-content-guid="u759-bw_content">
+     <div id="u759"><!-- simple frame --></div>
+    </div>
+    <div class="clearfix colelem" id="pu702"><!-- group -->
+     <div class="browser_width grpelem" id="u702-bw">
+      <div class="size_browser_width" id="u702"><!-- custom html -->
+       
+<!-- This Adobe Muse widget was created by the team at MuseFree.com -->
+	<div id="starfield">
+</div>
+
+      </div>
+     </div>
+     <div class="browser_width grpelem" id="u809-bw">
+      <div class="clip_frame" id="u809"><!-- svg -->
+       <img class="svg temp_no_img_src" id="u805" data-orig-src="images/icon-original.svg?crc=502132096" width="100%" height="498" alt="" data-mu-svgfallback="images/icon-original_poster_.png?crc=4126423537" src="images/blank.gif?crc=4208392903"/>
+      </div>
+     </div>
+    </div>
+    <div class="browser_width colelem shared_content" id="u838-bw" data-content-guid="u838-bw_content">
+     <div id="u838"><!-- simple frame --></div>
+    </div>
+    <a class="nonblock nontext clip_frame pinned-colelem" id="u896" href="http://redroma.tech/"><!-- svg --><img class="svg temp_no_img_src" id="u892" data-orig-src="images/redroma-insignia-3.svg?crc=230784493" width="109" height="109" alt="" data-mu-svgfallback="images/redroma-insignia%203_poster_.png?crc=4151980250" src="images/blank.gif?crc=4208392903"/></a>
+    <div class="verticalspacer" data-offset-top="837" data-content-above-spacer="836" data-content-below-spacer="158"></div>
    </div>
   </div>
-  <div class="breakpoint" id="bp_320" data-max-width="320"><!-- responsive breakpoint node -->
+  <div class="breakpoint" id="bp_476" data-min-width="376" data-max-width="476"><!-- responsive breakpoint node -->
    <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- column -->
-    <div class="position_content temp_no_id" data-orig-id="page_position_content">
-     <img class="colelem temp_no_id temp_no_img_src" alt="PROJECT LEXIS" width="320" height="43" data-orig-src="images/u156-43.png?crc=371855277" data-orig-id="u156-4" src="images/blank.gif?crc=4208392903"/><!-- rasterized frame -->
-     <a class="nonblock nontext clip_frame colelem temp_no_id" href="https:github.com/redroma/Lexis/" data-orig-id="u123"><!-- svg --><img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/artboard-6.svg?crc=353376474" onload="this.style.height=(this.offsetWidth*371/627.042253521126)+'px'" alt="" data-mu-svgfallback="images/artboard%206_poster_.png?crc=4023217927" data-image-width="627" data-image-height="371" data-orig-id="u119" src="images/blank.gif?crc=4208392903"/></a>
-     <img class="colelem temp_no_id temp_no_img_src" alt="MOX ADVENTUS" width="320" height="26" data-orig-src="images/u286-43.png?crc=59196952" data-orig-id="u286-4" src="images/blank.gif?crc=4208392903"/><!-- rasterized frame -->
-     <div class="verticalspacer" data-offset-top="517" data-content-above-spacer="517" data-content-below-spacer="29"></div>
+    <span class="browser_width colelem placeholder" data-placeholder-for="u156-4-bw_content"><!-- placeholder node --></span>
+    <div class="clearfix colelem" id="pu1278"><!-- group -->
+     <div class="browser_width grpelem" id="u1278-bw">
+      <div id="u1278"><!-- simple frame --></div>
+     </div>
+     <div class="browser_width grpelem temp_no_id" data-orig-id="u809-bw">
+      <div class="clip_frame temp_no_id" data-orig-id="u809"><!-- svg -->
+       <img class="svg temp_no_id temp_no_img_src" data-orig-src="images/icon-original.svg?crc=502132096" width="100%" height="357" alt="" data-mu-svgfallback="images/icon-original_poster_.png?crc=4126423537" data-orig-id="u805" src="images/blank.gif?crc=4208392903"/>
+      </div>
+     </div>
+     <span class="browser_width grpelem placeholder" data-placeholder-for="u286-4-bw_content"><!-- placeholder node --></span>
+     <span class="browser_width grpelem placeholder" data-placeholder-for="u759-bw_content"><!-- placeholder node --></span>
     </div>
+    <span class="browser_width colelem placeholder" data-placeholder-for="u838-bw_content"><!-- placeholder node --></span>
+    <a class="nonblock nontext clip_frame pinned-colelem temp_no_id" href="http://redroma.tech/" data-orig-id="u896"><!-- svg --><img class="svg temp_no_id temp_no_img_src" data-orig-src="images/redroma-insignia-3.svg?crc=230784493" width="90" height="90" alt="" data-mu-svgfallback="images/redroma-insignia%203_poster_.png?crc=4151980250" data-orig-id="u892" src="images/blank.gif?crc=4208392903"/></a>
+    <div class="verticalspacer" data-offset-top="560" data-content-above-spacer="559" data-content-below-spacer="157"></div>
    </div>
   </div>
+  <div class="breakpoint" id="bp_375" data-max-width="375"><!-- responsive breakpoint node -->
+   <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- column -->
+    <span class="clearfix colelem placeholder" data-placeholder-for="u156-4_content"><!-- placeholder node --></span>
+    <span class="clearfix colelem placeholder" data-placeholder-for="u286-4_content"><!-- placeholder node --></span>
+    <span class="browser_width colelem placeholder" data-placeholder-for="u838-bw_content"><!-- placeholder node --></span>
+    <div class="browser_width colelem temp_no_id" data-orig-id="u1278-bw">
+     <div class="temp_no_id" data-orig-id="u1278"><!-- group -->
+      <div class="clearfix" id="u1278_align_to_page">
+       <div class="clip_frame grpelem temp_no_id" data-orig-id="u809"><!-- svg -->
+        <img class="svg temp_no_id temp_no_img_src" data-orig-src="images/icon-original.svg?crc=502132096" width="320" height="280" alt="" data-mu-svgfallback="images/icon-original_poster_.png?crc=4126423537" data-orig-id="u805" src="images/blank.gif?crc=4208392903"/>
+       </div>
+      </div>
+     </div>
+    </div>
+    <span class="browser_width colelem placeholder" data-placeholder-for="u759-bw_content"><!-- placeholder node --></span>
+    <a class="nonblock nontext clip_frame colelem temp_no_id" href="http://redroma.tech/" data-orig-id="u896"><!-- svg --><img class="svg temp_no_id temp_no_img_src" data-orig-src="images/redroma-insignia-3.svg?crc=230784493" width="89" height="89" alt="" data-mu-svgfallback="images/redroma-insignia%203_poster_.png?crc=4151980250" data-orig-id="u892" src="images/blank.gif?crc=4208392903"/></a>
+    <div class="verticalspacer" data-offset-top="615" data-content-above-spacer="614" data-content-below-spacer="26"></div>
+   </div>
+  </div>
+  <!-- JS includes -->
+  <script type="text/javascript">
+   if (document.location.protocol != 'https:') document.write('\x3Cscript src="http://musecdn2.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+</script>
+  <script type="text/javascript">
+   window.jQuery || document.write('\x3Cscript src="scripts/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+</script>
   <!-- Other scripts -->
   <script type="text/javascript">
    window.Muse.assets.check=function(d){if(!window.Muse.assets.checked){window.Muse.assets.checked=!0;var b={},c=function(a,b){if(window.getComputedStyle){var c=window.getComputedStyle(a,null);return c&&c.getPropertyValue(b)||c&&c[b]||""}if(document.documentElement.currentStyle)return(c=a.currentStyle)&&c[b]||a.style&&a.style[b]||"";return""},a=function(a){if(a.match(/^rgb/))return a=a.replace(/\s+/g,"").match(/([\d\,]+)/gi)[0].split(","),(parseInt(a[0])<<16)+(parseInt(a[1])<<8)+parseInt(a[2]);if(a.match(/^\#/))return parseInt(a.substr(1),
@@ -66,6 +171,8 @@ var muse_init=function(){require.config({baseUrl:""});require(["jquery","museuti
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
+Muse.Utils.resizeHeight('.browser_width');/* resize height */
+Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
 Muse.Utils.fullPage('#page');/* 100% height page */
 $( '.breakpoint' ).registerBreakpoint();/* Register breakpoints */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
@@ -74,5 +181,12 @@ Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 </script>
   <!-- RequireJS script -->
   <script src="scripts/require.js?crc=4108833657" type="text/javascript" async data-main="scripts/museconfig.js?crc=169177150" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
+  
+  <!--HTML Widget code-->
+  
+	<script>
+        function Starfield(a,t){this.min=a,this.max=t,this.stars=Math.floor(Math.random()*(t-a)+a),this.canvas=document.getElementById("starfield"),this.canvasHeight=this.canvas.offsetHeight,this.canvasWidth=this.canvas.offsetWidth;for(var i=0;i<this.stars;i++){var n=new Array;n[0]="yellow-dwarf",n[1]="white-dwarf",n[2]="blue-dwarf",n[3]="red-giant";var s=Math.floor(4*Math.random()),r=Math.floor(Math.random()*this.canvasWidth),h=Math.floor(Math.random()*this.canvasHeight),e=8*Math.random()+2,o=Math.floor(2*Math.random());this.canvas.innerHTML+='<div style="margin-left:'+r+"px; margin-top:"+h+"px; -webkit-animation: twinkle "+e+"s "+o+"s infinite; -moz-animation: twinkle "+e+"s "+o+"s infinite; animation: twinkle "+e+"s "+o+'s infinite; " class="'+n[s]+'"></div>'}}var starfield=new Starfield(250,375);
+        </script>
+	
    </body>
 </html>

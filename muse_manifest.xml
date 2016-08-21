@@ -1,8 +1,16 @@
-<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="lexis.redroma.tech" resolutions="1x" timestamp="1471709372991">
+<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="lexis.redroma.tech" resolutions="1x" timestamp="1471738928271">
+  <folder name="fonts">
+    <file name="cinzel-regular.woff" crc="4168119946"/>
+    <file name="cinzel-regular.eot" crc="505467403"/>
+    <file name="cinzel-regular.svg" crc="384052360"/>
+  </folder>
+  <folder name="assets">
+    <file name="redroma-insignia-3.pdf" crc="3860549968" seo="true" mt="1465625499000"/>
+  </folder>
   <folder name="css">
     <file name="site_global.css" crc="3916556066"/>
-    <file name="index.css" crc="399970161" ref="index"/>
-    <file name="nomq_index.css" crc="470088535" ref="index"/>
+    <file name="index.css" crc="4291906727" ref="index"/>
+    <file name="nomq_index.css" crc="369143247" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="169078940" ref="index"/>
@@ -15,15 +23,11 @@
   </folder>
   <folder name="images">
     <file name="favicon.ico" crc="3967665933" ref="index"/>
-    <file name="artboard-6.svg" crc="353376474" seo="true" ref="index"/>
-    <file name="artboard 6_poster_.png" crc="4023217927" ref="index"/>
-    <file name="u156-4.png" crc="4204192438" ref="index"/>
-    <file name="u286-4.png" crc="491339750" ref="index"/>
-    <file name="u156-42.png" crc="1979238" ref="index"/>
-    <file name="u286-42.png" crc="3999828502" ref="index"/>
-    <file name="u156-43.png" crc="371855277" ref="index"/>
-    <file name="u286-43.png" crc="59196952" ref="index"/>
     <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="icon-original.svg" crc="502132096" seo="true" ref="index"/>
+    <file name="icon-original_poster_.png" crc="4126423537" ref="index"/>
+    <file name="redroma-insignia-3.svg" crc="230784493" seo="true" ref="index"/>
+    <file name="redroma-insignia 3_poster_.png" crc="4151980250" ref="index"/>
   </folder>
-  <file name="index.html" crc="3977820903" seo="true" mt="1471709340073" redirect="true"/>
+  <file name="index.html" crc="4138131566" seo="true" mt="1471738909142" redirect="true"/>
 </manifest>
