@@ -1,4 +1,4 @@
-<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="lexis.redroma.tech" resolutions="1x" timestamp="1471738928271">
+<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="lexis.redroma.tech" resolutions="1x" timestamp="1471739135768">
   <folder name="fonts">
     <file name="cinzel-regular.woff" crc="4168119946"/>
     <file name="cinzel-regular.eot" crc="505467403"/>
@@ -9,8 +9,8 @@
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="3916556066"/>
-    <file name="index.css" crc="4291906727" ref="index"/>
-    <file name="nomq_index.css" crc="369143247" ref="index"/>
+    <file name="index.css" crc="277421578" ref="index"/>
+    <file name="nomq_index.css" crc="3812843907" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="169078940" ref="index"/>
@@ -29,5 +29,5 @@
     <file name="redroma-insignia-3.svg" crc="230784493" seo="true" ref="index"/>
     <file name="redroma-insignia 3_poster_.png" crc="4151980250" ref="index"/>
   </folder>
-  <file name="index.html" crc="4138131566" seo="true" mt="1471738909142" redirect="true"/>
+  <file name="index.html" crc="4029665904" seo="true" mt="1471739131876" redirect="true"/>
 </manifest>
