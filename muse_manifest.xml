@@ -1,4 +1,9 @@
-<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="lexis.redroma.tech" resolutions="1x" timestamp="1475458919177">
+<manifest alg="2" build="2017.0.0.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="lexis.redroma.tech" resolutions="1x" timestamp="1478399064728">
+  <folder name="css">
+    <file name="site_global.css" crc="443350757"/>
+    <file name="index.css" crc="4105506614" ref="index"/>
+    <file name="nomq_index.css" crc="53550441" ref="index"/>
+  </folder>
   <folder name="fonts">
     <file name="cinzel-regular.woff" crc="4168119946"/>
     <file name="cinzel-regular.eot" crc="505467403"/>
@@ -7,27 +12,22 @@
   <folder name="assets">
     <file name="redroma-insignia-3.pdf" crc="3860549968" seo="true" mt="1465625499000"/>
   </folder>
-  <folder name="css">
-    <file name="site_global.css" crc="3916556066"/>
-    <file name="index.css" crc="3915221448" ref="index"/>
-    <file name="nomq_index.css" crc="53550441" ref="index"/>
-  </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="169078940" ref="index"/>
-    <file name="museutils.js" crc="3851988764" ref="index"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="163421577" ref="index"/>
     <file name="whatinput.js" crc="86476730" ref="index"/>
-    <file name="museconfig.js" crc="169177150" ref="index"/>
-    <file name="jquery.watch.js" crc="3842844514" ref="index"/>
-    <file name="jquery.museresponsive.js" crc="516761069" ref="index"/>
-    <file name="require.js" crc="4108833657" ref="index"/>
+    <file name="museconfig.js" crc="36584860" ref="index"/>
+    <file name="jquery.watch.js" crc="104486786" ref="index"/>
+    <file name="jquery.museresponsive.js" crc="4146931122" ref="index"/>
+    <file name="require.js" crc="244322403" ref="index"/>
   </folder>
   <folder name="images">
     <file name="favicon.ico" crc="3837823399" ref="index"/>
-    <file name="blank.gif" crc="4208392903" ref="index"/>
     <file name="lexis-book.svg" crc="502132096" seo="true" ref="index"/>
-    <file name="lexis-book_poster_.png" crc="4126423537" ref="index"/>
+    <file name="lexis-book_poster_.png" crc="4257767244" ref="index"/>
     <file name="redroma-logo@1x.svg" crc="3937533409" seo="true" ref="index"/>
-    <file name="redroma logo@1x_poster_.png" crc="496462377" ref="index"/>
+    <file name="redroma logo@1x_poster_.png" crc="3901065845" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
   </folder>
-  <file name="index.html" crc="4253271698" seo="true" mt="1475458912146" redirect="true"/>
+  <file name="index.html" crc="3976488907" seo="true" mt="1478399037568" redirect="true"/>
 </manifest>
