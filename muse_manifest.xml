@@ -1,10 +1,13 @@
-<manifest alg="2" build="2017.0.0.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="lexis.redroma.tech" resolutions="1x" timestamp="1478399064728">
+<manifest alg="2" build="2017.0.0.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="lexis.redroma.tech" resolutions="1x" timestamp="1478805323907">
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
-    <file name="index.css" crc="4105506614" ref="index"/>
+    <file name="index.css" crc="534780550" ref="index"/>
     <file name="nomq_index.css" crc="53550441" ref="index"/>
   </folder>
   <folder name="fonts">
+    <file name="cinzeldecorative-regular.woff" crc="3858874379"/>
+    <file name="cinzeldecorative-regular.eot" crc="517181899"/>
+    <file name="cinzeldecorative-regular.svg" crc="4283355323"/>
     <file name="cinzel-regular.woff" crc="4168119946"/>
     <file name="cinzel-regular.eot" crc="505467403"/>
     <file name="cinzel-regular.svg" crc="384052360"/>
@@ -29,5 +32,5 @@
     <file name="redroma logo@1x_poster_.png" crc="3901065845" ref="index"/>
     <file name="blank.gif" crc="4208392903" ref="index"/>
   </folder>
-  <file name="index.html" crc="3976488907" seo="true" mt="1478399037568" redirect="true"/>
+  <file name="index.html" crc="173725539" seo="true" mt="1478805310150" redirect="true"/>
 </manifest>
